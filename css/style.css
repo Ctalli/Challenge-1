@@ -1,0 +1,198 @@
+html{
+background: #F3F5FC;
+}
+
+header{
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+#textoEncriptado{
+    background: #F3F5FC;
+    border: none;
+    font-weight: bold;
+    position: absolute;
+    width: 577px;
+    height: 400px;
+    left: 240px;
+    top: 168px;
+    font-family: 'Inter';
+    font-size: 32px;
+    line-height: 150%;
+}
+
+#caja{
+    position: absolute;
+    width: 400px;
+    height: 700px;
+    left: 1000px;
+    top: 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+#muñeco{
+    position: absolute;
+    width: 286px;
+    height: auto;
+    left: 60px;
+    top: 115px;
+}
+
+#textoDesencriptado{
+    display: none;
+    position: absolute;
+    width: 336px;
+    height: 500px;
+    left: 28px;
+    top: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    color: #495057;
+    border: none;
+}
+
+#subcaja{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    left: 40px;
+    top: 400px;
+}
+
+.mensaje1{
+    width: 336px;
+    height: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+}
+
+.mensaje2{
+    width: 336px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.signo{
+    display: flex;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 250px;
+    top: 625px;
+}
+
+.exclamation{
+    width: 16px;
+    height: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.textoExclamation{
+    width: 205px;
+    height: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+}
+
+.bottonLogica{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 650px;
+}
+
+#botonEncriptar{
+    color: #FFFFFF;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    order: 0;
+    flex-grow: 0;
+}
+
+#botonDesencriptar{
+    color: #0A3871;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    order: 1;
+    flex-grow: 0;
+}
+
+#botonCopiar {
+    display: none;
+    box-sizing: border-box;
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 1032px;
+    top: 640px;
+    border-radius: 24px;
+}
+
+#botonEncriptar:hover, #botonDesencriptar:hover, #botonCopiar:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    font-family: 'Inter';
+    font-weight: bold;
+    position: absolute;
+    top: 720px;
+}
